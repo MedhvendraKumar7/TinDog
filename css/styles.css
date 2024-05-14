@@ -1,0 +1,151 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+p{
+    padding: 0% 10%;
+    color: #808080;
+}
+.container-fluid{
+    padding: 7% 15% ;
+}
+.color-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Navbar Section*/
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+
+/* Title */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.title-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+/* Dowload Button */
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* tittle Image */
+.tittle-image{
+    position:absolute;
+    width: 25%;
+    Transform:rotate(25deg);
+}
+
+
+/* Feature Section */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.featur-section{
+    padding: 1rem 2rem;
+}
+.icon{
+    padding-bottom: 1rem;
+    color: #ff5e4c;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials{
+    background-color: #ff5e4c;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-icon{
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+/* Press Section */
+#press{
+    background-color: #ff5e4c;
+    padding-bottom: 3%;
+}
+.press-icon{
+    width: 15%;
+    margin: 30px 20px 50px;
+}
+
+
+/* pricing Section */
+#pricing{
+    padding: 100px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action  */
+   
+   .ctn-btn{
+       margin: 2rem 1rem ;
+   }
+
+   
+/* Footer */
+   .footer-icon{
+    margin: 5% 3% 5% 0%;
+    width: 2rem;;
+   }
+
+
+@media (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    
+}
+
+
+
